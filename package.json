@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-tutorial",
+  "version": "1.0.0",
+  "description": "Progressive Node.js learning path with hands-on exercises and tests",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "dev": "nodemon",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "nodejs",
+    "tutorial",
+    "learning",
+    "education"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^2.1.0",
+    "@vitest/coverage-v8": "^2.1.0",
+    "@vitest/ui": "^2.1.0",
+    "eslint": "^9.0.0",
+    "nodemon": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "pg": "^8.11.0",
+    "dotenv": "^16.4.0"
+  }
+}
